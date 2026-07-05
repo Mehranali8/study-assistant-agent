@@ -39,7 +39,7 @@ async def run_query(runner, session_id, user_id, query_text):
             for fc in function_calls:
                 print(f"\n[Tool Call: {fc.name} with args {fc.args}]")
     print()
-    await asyncio.sleep(15)
+    await asyncio.sleep(60)
 
 
 
